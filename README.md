@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# 📰 News Bias Detector
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered web application designed to analyze news articles and detect potential political bias, emotional manipulation, and framing techniques.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Project Overview
 
-### `npm start`
+News Bias Detector helps users evaluate the objectivity of news content.  
+By analyzing linguistic patterns and political indicators, the system generates a structured bias report.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project aims to promote media literacy and critical thinking using artificial intelligence techniques.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧠 Analysis Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The system evaluates the following aspects:
 
-### `npm run build`
+- 📊 **Bias Score** (0–100 scale)
+- 🏛️ **Political Leaning** (Left / Center / Right)
+- 💬 **Emotional Language Detection** (Neutral / Emotional / Manipulative)
+- 🧩 **Framing Techniques Identification**
+- 📝 **Overall Analytical Summary**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ How It Works
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. The user pastes a news article into the input field.
+2. The system processes the text data.
+3. Linguistic and contextual patterns are analyzed.
+4. A structured bias evaluation report is generated.
 
-### `npm run eject`
+> The current architecture is built for AI/NLP integration.  
+> Advanced model integration is planned for future development.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- Webpack
+- AI / NLP (Planned Integration)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📦 Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/mehmeteminyilmaz/news-bias-detector.git
+cd news-bias-detector
+```
 
-### Code Splitting
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+Start development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📁 Project Structure
 
-### Advanced Configuration
+```
+src/
+ ├── components/
+ │    └── BiasDetector.js
+ ├── App.js
+ ├── index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🇹🇷 Proje Açıklaması (Türkçe)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+News Bias Detector, haber metinlerindeki siyasi yönelim, duygusal manipülasyon ve çerçeveleme tekniklerini analiz etmeyi amaçlayan yapay zeka tabanlı bir web uygulamasıdır.  
 
-### `npm run build` fails to minify
+Proje, medya okuryazarlığını artırmayı ve kullanıcıların haber içeriklerini daha eleştirel değerlendirmesini sağlamayı hedefler.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+
+This project is developed for educational and research purposes.
